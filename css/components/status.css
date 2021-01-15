@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  position: fixed;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .status-bar__column {
@@ -27,4 +28,10 @@
 
 .status-bar__column .fa-battery-full {
   margin: 0px 3px;
+}
+
+.status-bar__column_dot {
+  position: absolute;
+  right: 15px;
+  top: 40px;
 }

@@ -6,22 +6,23 @@
 }
 
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--gray);
 }
-
+/*
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+*/
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  padding-top: 15px;
+  border-top: var(--main-border);
+  padding: 15px var(--horizontal-space);
 }
 
 .friends-screen__channel-header {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
 }
