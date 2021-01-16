@@ -7,6 +7,9 @@
   top: 0;
 }
 
+#status-bar__background-color {
+  background-color: white;
+}
 .status-bar__column {
   width: 33%;
 }

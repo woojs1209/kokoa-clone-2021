@@ -31,4 +31,28 @@
   border-top: var(--main-border);
   margin: 20px 0;
   padding: 15px 0;
+  margin: 30px 0;
+}
+
+.suggestions__icons {
+  display: flex;
+  margin: 15px 0px;
+}
+
+.suggestions__icons__icon {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.suggestions__icons__more {
+  background-color: var(--yellow);
+  width: 60px;
+  height: 60px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
