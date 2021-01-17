@@ -44,7 +44,6 @@
   flex-direction: column;
   margin-right: 10px;
   text-align: center;
-  opacity: 0.6;
 }
 
 .suggestions__icons__more {
@@ -54,5 +53,7 @@
   border-radius: 9px;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 10px;
 }

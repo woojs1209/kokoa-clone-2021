@@ -88,3 +88,25 @@
   right: 8px;
   font-size: 12px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-chat__column__heart i:hover {
+  will-change: transform;
+  /* 브라우저가 애니메이션 등을 이해 못 할 때 발생하는 오류해결 가능
+  (애니메이션 과정에서 흔들리거나 할 때. 이게 변할거라고 딱 집어서 알려줌)
+  */
+  animation: heartBeat 1s linear infinite;
+}
